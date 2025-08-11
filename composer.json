@@ -1,0 +1,35 @@
+{
+    "name": "wusong8899/client1-welfare-ticket",
+    "description": "A Flarum extension. Add welfare ticket to the forum.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "support": {
+        "issues": "https://github.com/wusong8899/flarum-daily-check-in/issues",
+        "source": "https://github.com/wusong8899/flarum-daily-check-in"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "wusong8899\\WelfareTicket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wusong8899"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "wusong8899 Welfare Ticket",
+            "icon": {
+                "name": "fas fa-ticket-alt",
+                "backgroundColor": "#68238c",
+                "color": "#fff"
+            }
+        }
+    }
+}

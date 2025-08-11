@@ -1,0 +1,93 @@
+wusong8899-welfare-ticket:
+  forum:
+    welfare-playback: 上期开奖回放
+    welfare-purchase-cancel: 取消
+    welfare-purchase-ok: 确定
+    welfare-display-name: 名称
+    welfare-display-name-default: 福利彩票
+    welfare-ticket-view-history: 福彩购买历史
+    welfare-ticket-result-reminder: 福彩每日21点停止下注，22点开奖
+    welfare-ticket-current: 回到本期福彩
+    welfare-item-season-3D: "福彩3D 第{id}期"
+    welfare-ticket-purchase-history: 福彩购买历史
+    welfare-ticket-history: 更多期次
+    welfare-purchase-dealer: 成为庄家
+    welfare-purchase-dealer-confirm: "你确定要支付{cost}成为庄家吗？当前拥有{money}。"
+    welfare-purchase-dealer-insuffcient-fund: "当前资金不足无法成为庄家。需要{cost},当前拥有{money}。"
+    welfare-select-number: 请选择要购买的号码
+    welfare-result: 中奖结果
+    welfare-result-type: 中奖条件
+    welfare-result-type-text: "买{count}中{count}"
+    welfare-result-win-price: "中{hitCount}球，获得{money}"
+    welfare-result-not-ready: 尚未开奖
+    welfare-result-not-hit: 未中奖
+    welfare-result-dealer-profit: 收益
+    welfare-result-dealer-negative-profit: "亏损 {money}"
+    welfare-result-dealer-positive-profit: "盈余 {money}"
+    welfare-item-id: ID
+    welfare-item-title: 标题
+    welfare-item-numbers: 号码
+    welfare-item-is-dealer: 庄家
+    welfare-item-dealer-bet: 庄家额度
+    welfare-item-bet-total: 下注总额
+    welfare-item-dealer-name: 本期庄家
+    welfare-item-dealer-none: 无
+    welfare-item-dealerBet: 上庄金额
+    welfare-item-dealerBetCut: 抽水
+    welfare-item-bet: 下注金额
+    welfare-current-selection-count: "中{count}球 | 倍数：{multiplier}X"
+    welfare-current-selection-multiplier: 赔付倍数：
+    welfare-current-selection-none: 还未选择号码
+    welfare-purchase-success: 购买成功
+    welfare-purchase-dealer-success: 成功成为庄家
+    welfare-bet-closed: 等待开奖中
+    welfare-bet-now: 立即下注
+    welfare-become-dealer: 成为庄家
+    purchase-error: 购买时出现错误
+    purchase-error-welfare-closed: 福彩购买已结束
+    purchase-error-no-number-selected: 请选择至少一个号码
+    purchase-error-no-bet: 请选择下注金额
+    purchase-error-insufficient-fund: 资金不足
+    purchase-error-dealer-exist: 晚了一步，已经有人成为了庄家
+    purchase-now: 立刻购买
+    purchase-summary: "总共下注：{purchaseCostTotal} | 总共赢取：{purchaseWinTotal}"
+    welfare-receive-open-result: 福彩开奖
+    notifications:
+      open-content-dealer: "【{title}】庄家收益结算"
+      open-content: "【{title}】开奖结果"
+      win-total-positive-dealer: "您投资了{costTotal}收益为{winTotal}，盈余{profitTotal} |  福彩购买ID: {purchaseID}"
+      win-total-negative-dealer: "您投资了{costTotal}收益为{winTotal}，亏损{profitTotal} |  福彩购买ID: {purchaseID}"
+      win-total: "您花费了{costTotal}赢了{winTotal} |  福彩购买ID: {purchaseID}"
+  admin:
+    welfare-add: 添加福彩
+    welfare-edit: 编辑福彩
+    welfare-data-confirm: 确定
+    welfare-data-cancel: 取消
+    welfare-item-optional: （选填）
+    welfare-item-id: 期数
+    welfare-item-title: 标题
+    welfare-item-cost: 花费
+    welfare-item-background: 背景
+    welfare-item-background-placeholder: "请输入背景图片URL地址。例如：http://www.abc.com/example.png"
+    welfare-item-color: 颜色
+    welfare-item-dealer-name: 当前庄家
+    welfare-item-dealer-none: 无
+    welfare-item-dealerBet: 上庄金额
+    welfare-item-dealerBetCut: 庄家抽水
+    welfare-item-win-multiplier: 中奖倍数
+    welfare-item-win-1multiplier: 中1球
+    welfare-item-win-2multiplier: 中2球
+    welfare-item-win-3multiplier: 中3球
+    welfare-item-dealerBetCut-Help: 百分比（例如10代表抽水10%）
+    welfare-item-color-placeholder: "请输入背景颜色代码。例如：#999999"
+    welfare-item-color-background: 背景颜色/背景图片 (选填，留空则使用随机颜色)
+    welfare-item-setting: 设置
+    welfare-item-type: 福彩类型
+    welfare-item-type-1: 福彩3D
+    welfare-item-delete-confirmation: 你确定要删除吗?
+    settings:
+      welfare-timezone: 时区设置
+      welfare-timezone-help: 设置时区。默认为 "Asia/Shanghai"
+      welfare-timezone-default: Asia/Shanghai
+      welfare-display-name: 名称
+      welfare-display-name-default: 福利彩票
